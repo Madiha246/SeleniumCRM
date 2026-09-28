@@ -3,18 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.testng.InvoiceTestListener">
+      <class name="com.comcast.crrm.organizationtestng.CreateOrganizationTest">
         <methods>
+          <include name="createOrganizationsTest"/>
           <include name="configBS"/>
           <include name="configBC"/>
           <include name="configAS"/>
           <include name="configAC"/>
-          <include name="createInvoioceTest"/>
-          <include name="createInvoioceWithCntactTest"/>
           <include name="configBM"/>
           <include name="configAM"/>
         </methods>
-      </class> <!-- practice.testng.InvoiceTestListener -->
+      </class> <!-- com.comcast.crrm.organizationtestng.CreateOrganizationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

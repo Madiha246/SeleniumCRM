@@ -21,7 +21,7 @@ public class UtilityClassObject {
 		return driver.get();
 	}
 	
-	public static void setTest(WebDriver actDriver) {
+	public static void setDriver(WebDriver actDriver) {
 		driver.set(actDriver);
 	}
 }

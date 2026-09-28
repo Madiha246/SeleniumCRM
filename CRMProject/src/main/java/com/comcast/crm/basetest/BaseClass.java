@@ -46,7 +46,7 @@ public class BaseClass {
 		driver=wu.launchBrowser(browser);
 	
 		sdriver=driver;
-		UtilityClassObject.setTest(driver);
+		UtilityClassObject.setDriver(driver);
 	}
 	
 	

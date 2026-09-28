@@ -24,7 +24,7 @@ import com.comcast.crm.webdriverutility.UtilityClassObject;
 public class CreateOrganizationTest extends BaseClass {
 
 	@Test(groups = { "Smoke Test" })
-	public void createOrganizationTest() throws IOException {
+	public void createOrganizationsTest() throws IOException {
 
 		
 		HomePage hp = new HomePage(driver);

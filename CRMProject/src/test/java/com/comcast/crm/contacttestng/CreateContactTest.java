@@ -20,7 +20,7 @@ public class CreateContactTest extends BaseClass{
 	
 	
 	@Test	(groups= {"Smoke Test"})		
-	public void createContactTest() throws IOException {
+	public void createContactsTest() throws IOException {
 	HomePage hp=new HomePage(driver);
 	hp.getContactsLink().click();
 	ContactsPage cp=new ContactsPage(driver);

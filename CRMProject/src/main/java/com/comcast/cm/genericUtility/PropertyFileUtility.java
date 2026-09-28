@@ -9,7 +9,7 @@ FileInputStream fis;
 	
 	public String readPropertyfile(String key) throws IOException  {
 		
-		fis=new FileInputStream("D:\\Selenium-ms\\CRMProject\\src\\test\\resources\\commonData.properties");
+		fis=new FileInputStream("C:\\Users\\muthahir\\git\\ProjectCRM\\CRMProject\\src\\test\\resources\\commonData.properties");
 		Properties p=new Properties();
 		p.load(fis);		
 		
