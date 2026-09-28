@@ -22,7 +22,7 @@
 							<suiteXmlFiles>
 								<!-- Provide the path to your testng.xml
 								relative to the project root -->
-								<suiteXmlFile>SmokeSuite.xml.xml</suiteXmlFile>
+								<suiteXmlFile>SmokeSuite.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
